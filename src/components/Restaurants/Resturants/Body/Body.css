@@ -1,0 +1,14 @@
+.Searchfilter{
+    margin: 3rem;
+    margin-top: 10rem;   
+}
+.Searchfilter .input{
+    display: flex;
+    justify-content: space-between;
+}
+.Searchfilter input{
+    padding: 0.5rem 1.3rem;
+}
+.Searchfilter .rating{
+    width: 2rem;
+}

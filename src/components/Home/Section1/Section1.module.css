@@ -1,0 +1,61 @@
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    display: flex;
+    /* padding: 3rem; */
+    align-items: center;
+    /* justify-content: center; */
+}
+.section1 .content {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    z-index: 10;
+}
+.section1 .content h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    span{
+        color: rgb(250, 85, 113);
+    }
+}
+.section1 .content p{
+    width: 80%;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+.section1 .content .buttons{
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0rem 5rem;
+}
+
+@media screen and (max-width:800px) {
+    .section1{
+        justify-content: center;
+    }
+    
+    .section1 .content div{ 
+        justify-content: center;
+    }
+
+    .section1 .content {
+        width: 100%;
+    }
+    .section1 .content p{
+        width: 90%;
+    }
+}

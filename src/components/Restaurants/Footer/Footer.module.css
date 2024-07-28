@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    padding: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: rgb(243,244,246);
+}
+
+.footer .logo p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(28, 121, 28)
+}
+.footer p{
+    text-align: center;
+    max-width: 30rem ;
+    font-size: 1.1rem;
+    color: rgb(67, 65, 65);
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    color: rgb(67, 65, 65);
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .icons{
+    display: flex;
+    gap: 1.5rem;
+    color: rgb(67, 65, 65);
+}
+.footer .icons i{
+    font-size: 1.5rem;
+}
