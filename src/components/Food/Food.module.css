@@ -100,5 +100,8 @@
         flex-direction: column;
         padding: 1rem;
     }
+    .heading{
+        margin-top: 10rem;
+    }
     
 }
