@@ -20,7 +20,7 @@ function Food() {
         <div className={style.cards}>
           {data.map((item) => {
             return (
-              <div className={style.card}>
+              <div key={item.idMeal} className={style.card}>
                 <img className={style.image} src={item.strMealThumb} alt="" />
                 
                 <div className={style.content}>

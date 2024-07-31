@@ -1,11 +1,16 @@
-
+import React from 'react';
 import styles from './Footer.module.css'
-
+import { FaHamburger } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaBasketballBall } from "react-icons/fa";
 function Footer() {
     return(
         <>
         <div className={styles.footer}>
-            <div className={styles.logo}><p><i class="fa-solid fa-burger"></i>Logoipsum</p>
+            <div className={styles.logo}><p><FaHamburger />Logoipsum</p>
             </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa cum itaque neque.</p>
             <ul>
@@ -17,11 +22,11 @@ function Footer() {
                 <li>Blog</li>
             </ul>
             <div className={styles.icons}>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-solid fa-basketball"></i>
+            <FaFacebook />
+            <FaInstagram />
+            <FaTwitter />
+            <FaGithub />
+            <FaBasketballBall />
 
             </div>
         </div>

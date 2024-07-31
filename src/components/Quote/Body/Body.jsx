@@ -140,9 +140,9 @@ const Body = () => {
   return (
     <div className="section1">
         <div className="main">
-            {arr.map((ele)=>{
+            {arr.map((ele,index)=>{
                 return(
-                    <div className="para">
+                    <div key={index} className="para">
                         <p className='quote'>{ele.Quote}</p>
                         <p className='author'>{ele.Author}</p>
                     </div>

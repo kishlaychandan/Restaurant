@@ -7,7 +7,7 @@ function Cards({data}) {
   function star(item){
     let arr=[];
     for(let i=0;i<item.rating;i++){
-      arr.push(<FaStar/>)
+      arr.push(<FaStar key={i}/>)
     }
     return arr;
   }
@@ -15,9 +15,9 @@ function Cards({data}) {
     // console.log(data),
     <>
     <div className="cards">
-    {data.map((item) => {
+    {data.map((item,index) => {
       return (
-        <div className='card' >
+        <div key={index} className='card' >
           <div className="detail">
           <h2>{item.name}
             <span>{star(item)}</span>
